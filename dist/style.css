@@ -148,7 +148,7 @@
 
 
 .header .branding img{
-    width: 6rem;
+    width: 7rem;
 }
 
 
@@ -169,7 +169,7 @@
 }
 
 .header .header__nav ul li{
-    margin-left: 2rem;
+    margin-left: 3rem;
     padding: 2rem 0;
 }
 
@@ -254,7 +254,6 @@
 
 
 
-
 /*----------BANNER--------*/
 .banner{
     background: #ffffff;
@@ -263,19 +262,75 @@
 
 .banner .banner__text h1{
  color: #ffa700;
- font-size: 10rem;
+ font-size: 7rem;
  font-weight: 800;
- margin-right: 40rem;
+ margin-right: 30rem;
+ line-height: 8rem;
 }
 
 .banner .banner__text p{
-    
-}
+    max-width: rem;
+    text-align: justify;
+} 
 
 .banner .banner__wrapper{
     display: flex;
+    margin-left: 15rem;
 }
 
-.banner .banner__wrapper img{
-margin-left: 15rem;
+.banner img{
+    margin-left: -1rem;
+}
+
+
+
+/*-------- hm-services ----------*/
+.hm-services{
+    background: #1b1a1a;
+    padding: 8rem 0;
+}
+
+.hm-services .hm-services__item{
+    text-align: center;
+}
+
+
+.hm-services .hm-services__item i{
+    font-size: 6rem;
+    color: #ffa700;
+    margin-bottom: 2rem;
+}
+
+.hm-services .hm-services__item h4{
+    font-size: 2.5rem;
+    color: #ffa700;
+    font-weight: 600;
+    margin: 0;
+}
+
+.hm-services .hm-services__item p{
+    color: #ffffff;
+    margin: 2rem 0;
+    text-align: justify;
+}
+
+.hm-services .hm-services__wrapper{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-gap: 8rem;
+}
+@media screen and (max-width:500px){
+    .hm-services .hm-services__wrapper{
+        display: block;
+        text-align: center;  
+    }
+}
+
+.hm-services .hm-services__item{
+    margin-top: 5rem;
+}
+
+
+.hm-services .hm-services__wrapper a{
+color: #ffffff;
 }
